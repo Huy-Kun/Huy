@@ -40,7 +40,7 @@ public class MON_Slime extends Entity {
     public void setAction() {
         actionLockCounter++;
         // change direction after 2s
-        if (actionLockCounter == 120) {
+        if (actionLockCounter == 120) { 
             Random random = new Random();
             int i = random.nextInt(100) + 1;
             if (i <= 25)
