@@ -23,7 +23,6 @@ public class MON_Slime extends Entity {
         solidAreaDefaultY = solidArea.y;
 
         getImage();
-
     }
 
     public void getImage() {

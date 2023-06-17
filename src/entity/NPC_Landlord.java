@@ -17,14 +17,14 @@ public class NPC_Landlord extends Entity {
 
     public void getImage() {
 
-        up1 = setup("./res/npc/landlord/landlord_up_1");
-        up2 = setup("./res/npc/landlord/landlord_up_2");
-        down1 = setup("./res/npc/landlord/c2");
-        down2 = setup("./res/npc/landlord/c3");
-        left1 = setup("./res/npc/landlord/c2");
-        left2 = setup("./res/npc/landlord/c3");
-        right1 = setup("./res/npc/landlord/c0");
-        right2 = setup("./res/npc/landlord/c1");
+        up1 = setup("./res/npc/landlord/landlord_up/landlord_up_1");
+        up2 = setup("./res/npc/landlord/landlord_up/landlord_up_2");
+        down1 = setup("./res/npc/landlord/landlord_down/landlord_down_1");
+        down2 = setup("./res/npc/landlord/landlord_down/landlord_down_2");
+        left1 = setup("./res/npc/landlord/landlord_left/landlord_left_1");
+        left2 = setup("./res/npc/landlord/landlord_left/landlord_left_2");
+        right1 = setup("./res/npc/landlord/landlord_right/landlord_right_1");
+        right2 = setup("./res/npc/landlord/landlord_right/landlord_right_2");
 
     }
 
